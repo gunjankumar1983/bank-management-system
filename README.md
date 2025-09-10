@@ -23,33 +23,25 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 ![Build](https://img.shields.io/badge/Build-Passing-success?logo=githubactions)
 
 ## 📂 Project Structure
+
 bank-management-system/
-┣ 📂 src/main/java/com/alien/bank
-┃ ┣ 📂 controller # REST Controllers
-┃ ┣ 📂 model # Entities (JPA)
-┃ ┣ 📂 repository # JPA Repositories
-┃ ┣ 📂 service # Business Logic
+┣ 📂 src/main/java/com/alien/bank/management/system
+┃ ┣ 📂 config # Configuration classes (e.g., security, beans)
+┃ ┣ 📂 controller # REST controllers (API endpoints)
+┃ ┣ 📂 entity # JPA entities
+┃ ┣ 📂 exception # Custom exceptions & handlers
+┃ ┣ 📂 mapper # DTO ↔ Entity mappers (e.g., MapStruct / manual)
+┃ ┣ 📂 model # DTOs / Request & Response models
+┃ ┣ 📂 repository # JPA repositories (interfaces extending JpaRepository)
+┃ ┣ 📂 security # Security-related classes (filters, JWT, config)
+┃ ┣ 📂 service # Service layer (business logic)
+┃ ┣ 📂 utils # Utility/helper classes
+┃ ┣ 📜 ApplicationConfig.java
 ┃ ┗ 📜 BankManagementSystemApplication.java
 ┣ 📂 src/main/resources
 ┃ ┣ 📜 application.properties (or application.yml)
-┃ ┗ 📜 schema.sql / data.sql (optional)
+┃ ┗ 📜 schema.sql / data.sql (optional for DB init)
+┣ 📂 src/test/java/com/alien/bank/management/system
+┃ ┗ 📂 (same structure as main for tests)
 ┣ 📜 pom.xml
 ┗ 📜 README.md
-
-yaml
-Copy code
-
-
-🏗️ Architecture
-📦 Bank Management System
-├── 📂 config/          # Application configuration
-├── 📂 controller/      # REST API controllers
-├── 📂 entity/          # JPA entities
-├── 📂 exception/       # Custom exception handling
-├── 📂 mapper/          # Data mapping utilities
-├── 📂 model/           # Data transfer objects
-├── 📂 repository/      # Data access layer
-├── 📂 security/        # Security configurations
-├── 📂 service/         # Business logic layer
-└── 📂 utils/           # Utility classes
- licensed under the MIT License - see the LICENSE file for details.
