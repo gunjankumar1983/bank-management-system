@@ -5,14 +5,6 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 
 ---
 
-## 🚀 Tech Stack
-- **Java 21**
-- **Spring Boot 3.x**
-- **Spring Security + JWT**
-- **Spring Data JPA (Hibernate)**
-- **MySQL**
-- **Lombok**
-- **Swagger / OpenAPI** for API documentation
 
 ---
 ![Java](https://img.shields.io/badge/Java-21-red?logo=openjdk)
@@ -45,3 +37,29 @@ bank-management-system/
 ┃ ┗ 📂 (same structure as main for tests)
 ┣ 📜 pom.xml
 ┗ 📜 README.md
+
+
+---
+
+## 🚀 Tech Stack
+- **Java 21**
+- **Spring Boot 3.x**
+- **Spring Security + JWT**
+- **Spring Data JPA (Hibernate)**
+- **MySQL**
+- **Lombok**
+- **Swagger / OpenAPI** for API documentation
+
+---
+
+## ⚙️ Configuration
+
+In `src/main/resources/application.properties` configure MySQL:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/bankdb
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
