@@ -64,7 +64,7 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 ```
 
 ##✨ Features
-#👤 Account Management
+```👤 Account Management
 
 ✅ Create and manage customer accounts
 ✅ Account verification and KYC compliance
@@ -91,5 +91,5 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 ✅ Transaction reports
 ✅ Account statements
 ✅ Administrative dashboards
-✅ Export functionality
+✅ Export functionality ```
 
