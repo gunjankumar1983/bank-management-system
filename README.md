@@ -129,13 +129,8 @@ mvn spring-boot:run
 The application will start on http://localhost:8080
 📦 Installation & Setup
 1. 📥 Clone Repository
-bash# 📂 Clone the project
-git clone https://github.com/yourusername/bank-management-system.git
-
-# 📁 Navigate to directory
+bashgit clone https://github.com/yourusername/bank-management-system.git
 cd bank-management-system
-
-# 🔍 Verify structure
 ls -la
 2. Configuration
 Update application.properties:
@@ -283,4 +278,5 @@ Contributors: See all contributors
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 <div align="center">
+⭐ Star this repository if you find it helpful!
 ⭐ Star this repository if you find it helpful!
