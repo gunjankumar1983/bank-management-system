@@ -63,3 +63,12 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+▶️ Running the Project
+Using Maven
+mvn spring-boot:run
+
+Or build a jar
+mvn clean package
+java -jar target/bank-management-system-0.0.1-SNAPSHOT.jar
+
