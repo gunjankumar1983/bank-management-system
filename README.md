@@ -16,7 +16,7 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 
 ## 📂 Project Structure
 
-bank-management-system/
+```bank-management-system/
 ┣ 📂 src/main/java/com/alien/bank/management/system
 ┃ ┣ 📂 config # Configuration classes (e.g., security, beans)
 ┃ ┣ 📂 controller # REST controllers (API endpoints)
@@ -37,6 +37,7 @@ bank-management-system/
 ┃ ┗ 📂 (same structure as main for tests)
 ┣ 📜 pom.xml
 ┗ 📜 README.md
+```
 
 
 ---
@@ -52,14 +53,15 @@ bank-management-system/
 
 ---
 
-🎯 Key Highlights
+## 🎯 Key Highlights
 
-🔐 Secure Authentication & Authorization
+```🔐 Secure Authentication & Authorization
 💰 Real-time Transaction Processing
 📊 Comprehensive Account Management
 🛡️ Advanced Security Features
 📱 RESTful API Design
 ⚡ High Performance & Scalability
+```
 
 ✨ Features
 👤 Account Management
