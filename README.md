@@ -15,6 +15,12 @@ This project uses **MySQL** as the database and follows modern practices with Sp
 - **Swagger / OpenAPI** for API documentation
 
 ---
+![Java](https://img.shields.io/badge/Java-21-red?logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-brightgreen?logo=springboot)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql)
+![Maven](https://img.shields.io/badge/Maven-3.9-orange?logo=apachemaven)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Build](https://img.shields.io/badge/Build-Passing-success?logo=githubactions)
 
 ## 📂 Project Structure
 bank-management-system/
