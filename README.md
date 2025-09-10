@@ -14,7 +14,7 @@ It uses *MySQL* as the database and follows modern practices with *Spring Boot 3
 ## 📂 Project Structure  
 
 
-bank-management-system/
+```bank-management-system/
  ┣ 📂 src/main/java/com/alien/bank/management/system
  ┃ ┣ 📂 config        # Configuration classes (security, beans, etc.)
  ┃ ┣ 📂 controller    # REST API controllers
@@ -32,7 +32,7 @@ bank-management-system/
  ┃ ┗ 📜 schema.sql / data.sql (optional DB init)
  ┣ 📂 src/test/java/... (unit & integration tests)
  ┣ 📜 pom.xml
- ┗ 📜 README.md
+ ┗ 📜 README.md```
 
 
 ---
